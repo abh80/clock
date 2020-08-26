@@ -1,0 +1,65 @@
+html {
+  background-image: url("assets/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  color: #ffffff;
+  position: center;
+  font-size: 50px;
+  top: 20px;
+  text-align: center;
+  animation-name: floating;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  bottom: -20px;
+  position: relative;
+  vertical-align: bottom;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 40px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+.searchbar input[type="text"] {
+  width: 450px;
+  height: 50px;
+  border: none;
+}
+.searchbar {
+  float: center;
+  margin: 10px;
+  bottom: -50px;
+  position: relative;
+  vertical-align: bottom;
+}
+.searchbar button {
+  background-color: #0074d9;
+  color: #f2f2f2;
+  float: center;
+  padding: 20px 15px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+.searchbar button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+footer {
+  color: white;
+}

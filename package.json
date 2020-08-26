@@ -1,0 +1,12 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "A simple clock app made using electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ./index.js"
+  },
+  "author": "Abh80",
+  "license": "MIT",
+  "dependencies": {}
+}
